@@ -1,5 +1,6 @@
 # Fase di RE:
   1. **Intervistare gli Stakeholder**
+      [[RE/IntervistaStakeholder.md]]
 
   3. **Identificare obbiettivi (G) e ipotesi di dominio (D)**
 
