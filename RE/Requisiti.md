@@ -81,12 +81,12 @@ RNF4: Notifche Scadenze certificati medici
 Il sistema dovrà automaticamente inviare una notifica alla Segreteria e all'atleta, tramite e-mail ed SMS 30 giorni prima della scadenza di un certificato medico agonistico
 
 RNF5: Notifiche Pagamenti
-Il sistema dovrà inviare una notifica tramite e-mail ed SMS agli atleti e alla segreteria nel caso in cui ci sia un pagamento non effettuato a meno di 30 giorni dalla scadenza
+Il sistema dovrà inviare una notifica tramite e-mail, SMS e dashboard agli atleti e alla segreteria nel caso in cui ci sia un pagamento non effettuato a meno di 30 giorni dalla scadenza
 
 RNF6: Notifiche Allenamenti
-Il sistema dovrà inviare una notifica tramite e-mail ed SMS agli atleti in caso di creazione/cancellazione di un allenamento
+Il sistema dovrà inviare una notifica tramite e-mail, SMS e dashboard agli atleti in caso di creazione/cancellazione di un allenamento
 
 RNF7: Notifiche Convocazioni
-Il sistema dovrà inviare una notifica tramite e-mail ed SMS agli atleti in caso di convocazione ad una gara
+Il sistema dovrà inviare una notifica tramite e-mail, SMS e dashboard agli atleti in caso di convocazione ad una gara
 
 
