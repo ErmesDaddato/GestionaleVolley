@@ -4,7 +4,7 @@
 
 **G2)** Automatizzare il caricamento del certificato medico agonistico
 
-**G3)** Automatizzare l'iscrizione ai tornei federali (in aseguito a certificato medico valido)
+**G3)** Il software dovrà mostrare tutte le informazioni relative ad ogni atleta, rendendole visibili ai genitori/atleti, allenatori e segreteria
 
 **G4)** Automatizzare caricamento documenti di identità
 
@@ -18,4 +18,4 @@
 
 **G9)** Il sistema dovrà occuparsi delle convocazioni
 
-**G10)** Il software dovrà mostrare tutte le informazioni relative ad ogni atleta
+**G10)** Il sistema deve essere mobile-first
