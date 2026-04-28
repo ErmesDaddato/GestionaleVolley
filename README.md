@@ -7,7 +7,7 @@
      
   6. **Gloassario dei Termini** 
   
-  7. **Tabelle dei casi d'uso**[https://docs.google.com/document/d/1YBR2AIly_TefKxUdpW6wL-fnPMpXjOzzeXg7M3lgR-k/edit?tab=t.0]
+  7. **Tabelle dei casi d'uso**  [https://docs.google.com/document/d/1YBR2AIly_TefKxUdpW6wL-fnPMpXjOzzeXg7M3lgR-k/edit?tab=t.0]
 
   8. **Matrice di Mapping**
   
