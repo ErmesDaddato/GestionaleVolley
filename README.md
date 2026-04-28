@@ -1,9 +1,9 @@
 # Fase di RE:
-  1. [**Intervistare gli Stakeholder**](RE/IntervistaStakeholder.md)
+  1. [**Intervistare gli Stakeholder**](RE/Altro/IntervistaStakeholder.md)
 
-  3. [**Identificare obbiettivi (G) e ipotesi di dominio (D)**](RE/Goals.md)
+  3. [**Identificare obbiettivi (G) e ipotesi di dominio (D)**](RE/Altro/Goals.md)
 
-  4. [**Identificazione dei requisiti (R)**](RE/Requisiti.md)
+  4. [**Identificazione dei requisiti (R)**](RE/Requisiti.pdf)
 
   5. **Gloassario dei Termini**
 
