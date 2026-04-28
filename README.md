@@ -4,15 +4,17 @@
   3. [**Identificare obbiettivi (G) e ipotesi di dominio (D)**](RE/Altro/Goals.md)
 
   4. [**Identificazione dei requisiti (R)**](RE/Requisiti.pdf)
-
-  5. **Gloassario dei Termini**
-
-  6. **Matrice di Mapping**
+     
+  6. **Gloassario dei Termini** 
   
-  7. **Identificare gli scenari**
+  7. **Tabelle dei casi d'uso**[https://docs.google.com/document/d/1YBR2AIly_TefKxUdpW6wL-fnPMpXjOzzeXg7M3lgR-k/edit?tab=t.0]
+
+  8. **Matrice di Mapping**
   
-  8. **Identificare attori e fenomeni**
+  9. **Identificare gli scenari**
+  
+  10. **Identificare attori e fenomeni**
 
-  9. **Elaborare i casi d'uso**
+  11. **Elaborare i casi d'uso**
 
-  10. **Modello del dominio**
+  12. **Modello del dominio**
