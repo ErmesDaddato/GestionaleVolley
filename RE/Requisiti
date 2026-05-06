@@ -64,39 +64,44 @@ Il sistema deve inviare avvisi automatici (via e-mail, SMS e dashboard) sia all'
 **RF19:** *EmissioneRata*
 Sulla base del piano di ripartizione definito durante il calcolo della tariffazione (RF17), il sistema deve provvedere alla generazione automatica delle singole scadenze di pagamento (rate).
 
+**RF20:** *ModificaBloccoAccountPagamentiAutomatico*
+Il sistema deve gestire il ripristino dell'operatività dell'account dell'Atleta, precedentemente sospeso a causa del mancato adempimento degli obblighi finanziari (come definito in RF16). Lo sblocco avviene in modalità automatica, a seguito dell'avvenuta regolarizzazione della posizione debitoria.
+
+**RF21:** *ModificaBloccoAccountPagamentiManuale*
+Il sistema deve gestire il ripristino dell'operatività dell'account dell'Atleta, precedentemente sospeso a causa del mancato adempimento degli obblighi finanziari (come definito in RF16). Lo sblocco avviene in modalità manuale, tramite l'intervento di un Amministratore autorizzato.
 
 **AREA:** ***Logistica***
 
-**RF20:** *AcquisizioneTaglieKitAtleti*
+**RF22:** *AcquisizioneTaglieKitAtleti*
 Il sistema deve automatizzare la raccolta delle taglie necessarie per la fornitura del kit tecnico attraverso la somministrazione e l'elaborazione di un questionario digitale rivolto agli Atleti.
 
-**RF21:** *AcquisizioneTaglieKitAllenatori*
+**RF23:** *AcquisizioneTaglieKitAllenatori*
 Il sistema deve automatizzare la raccolta delle taglie necessarie per la fornitura del kit tecnico destinato al personale tecnico (Allenatori). La procedura deve avvenire tramite la somministrazione di un questionario digitale specifico, i cui dati raccolti devono essere elaborati dal sistema per generare un riepilogo degli ordini necessari alla logistica.
 
-**RF22:** *AssegnazioneKit*
+**RF24:** *AssegnazioneKit*
 Il sistema deve permettere all'Amministratore di associare un kit specifico o un lotto di materiali al profilo di un utente (Atleta o Allenatore).
 
-**RF23:** *MonitoraggioConsegnaMateriale*
+**RF25:** *MonitoraggioConsegnaMateriale*
 Il sistema deve consentire la registrazione formale dell'avvenuta consegna del kit, permettendo all'Amministratore di tracciare lo stato della distribuzione per ogni singolo utente.
 
 **AREA:** ***Gestione sportiva****
 
-**RF24:** *RilevazionePresenze*
+**RF26:** *RilevazionePresenze*
 Il sistema deve consentire agli utenti con ruolo Allenatore di registrare e monitorare la partecipazione degli Atleti alle singole sessioni di allenamento.
 
-**RF25:** *ConvocazionePartite*
+**RF27:** *ConvocazionePartite*
 Il sistema deve permettere il caricamento di documenti digitali relativi alle convocazioni, abilitando l'associazione univoca tra l'evento sportivo e i profili degli Atleti selezionati.
 
-**RF26:** *PianificazioneSessioni*
+**RF28:** *PianificazioneSessioni*
 Il sistema deve fornire funzionalità per la creazione di nuovi eventi di allenamento, consentendo di definire l'elenco degli Atleti partecipanti per ogni specifica sessione.
 
-**RF27:** *AnnullamentoSessioni*
+**RF29:** *AnnullamentoSessioni*
 Il sistema deve permettere la rimozione di un allenamento precedentemente programmato, garantendo l'aggiornamento in tempo reale del calendario sportivo.
 
-**RF28:** *NotificheAllenamenti*
+**RF30:** *NotificheAllenamenti*
 Il sistema deve inviare comunicazioni multicanale (e-mail, SMS e dashboard) agli Atleti coinvolti ogni volta che un allenamento viene creato o cancellato.
 
-**RF29:** *NotificheConvocazioni*
+**RF31:** *NotificheConvocazioni*
 Il sistema deve generare un avviso automatico tramite e-mail, SMS e dashboard per informare tempestivamente l'Atleta dell'avvenuta convocazione a una competizione agonistica.
 
 ***REQUISITI NON FUNZIONALI***
