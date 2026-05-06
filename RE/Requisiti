@@ -1,0 +1,127 @@
+
+***REQUISITI FUNZIONALI***
+
+**AREA: *Gestione Utente***
+
+**RF1:** *AggiungiAtleta*
+L'Amministratore deve poter generare un nuovo profilo Atleta, definendone le relative credenziali d'accesso. Qualora l'atleta sia minorenne, il sistema deve obbligatoriamente richiedere e associare al profilo i dati anagrafici di un genitore o tutore legale.
+
+**RF2:** *AggiungiAllenatore*
+Il sistema deve consentire all'Amministratore la creazione di nuovi account destinati al personale tecnico (Allenatori), definendone le relative credenziali d'accesso.
+
+**RF3:** *RicercaUtente*
+Il sistema deve fornire una funzione di ricerca per permettere all'Amministratore di individuare uno o più profili nel database
+
+**RF4:** *ModificaAccount*
+L'Amministratore deve avere la facoltà di modificare e aggiornare le informazioni associate a qualunque tipologia di account censito nel sistema.
+
+**RF5:** *EliminaAccount*
+Il sistema deve permettere all'Amministratore di effettuare l'eliminazione definitiva di un account, indipendentemente dal ruolo dell'utente (Atleta, Allenatore, ecc.).
+
+**RF6:** *RecuperoCredenziali*
+Deve essere prevista una procedura di self-service che permetta agli utenti di recuperare o resettare le proprie credenziali di accesso tramite l'invio di una comunicazione all'indirizzo e-mail registrato.
+
+**RF7:** *LoginUtente*
+Il sistema deve garantire l'accesso all'area riservata a ogni utente registrato, previa verifica delle credenziali (login) inserite nell'apposita interfaccia.
+
+**AREA:** ***Gestione Anagrafica e documentazione***
+
+**RF8:** *ValidazioneCertificatoMedico*
+Il sistema deve consentire all'Amministratore di visionare e approvare il certificato medico agonistico precedentemente caricato dall'Atleta sul portale.
+
+**RF9:** *BloccoAccountCertificato*
+Il sistema deve monitorare quotidianamente la data di scadenza del certificato medico associato al profilo di ogni Atleta. Qualora la data corrente risulti superiore alla data di scadenza registrata, il sistema deve impostare automaticamente lo stato dell'account su "Bloccato per Certificato Scaduto". Questo stato impedisce all'atleta di effettuare prenotazioni, partecipare a gare o accedere ad aree riservate all'attività fisica, notificando l'utente della necessità di rinnovo.
+
+**RF10:** *NotificheScadenzeCertificato* 
+Il sistema deve generare un avviso automatico (tramite e-mail ed SMS) rivolto sia all'Amministratore che all'Atleta interessato, con un preavviso di 30 giorni rispetto alla data di scadenza del certificato.
+
+**RF11:** *CaricamentoCertificatoMedico*
+Ogni Atleta registrato deve poter caricare il proprio certificato medico agonistico in formato digitale; tale documento resterà in attesa di validazione da parte dell'Amministratore (o Amministratore).
+
+**RF12:** *CaricamentoLiberatoriaPrivacy*
+Il sistema deve includere una funzionalità per il caricamento e l'archiviazione della liberatoria firmata per il trattamento dei dati personali e della privacy.
+
+**RF13:** *CaricamentoDocumenti*
+Il sistema deve permettere a ciascun Atleta di caricare e conservare nel proprio profilo una copia digitale dei documenti d'identità in corso di validità.
+
+**RF14:** *ModificaBloccoAccountCerftificato*
+Il requisito permette la modifica dello stato di blocco dell'account Atleta. A seguito del caricamento e della validazione di un nuovo certificato medico in corso di validità, il sistema deve poter sbloccare l'account, riportandolo allo stato "Attivo".
+
+**AREA:** ***Gestione amministrativa e contabile***
+
+**RF15:** *Pagamenti*
+Il sistema deve integrare un gateway di pagamento che consenta a ogni Atleta di saldare le quote associative o le rate previste direttamente in modalità telematica.
+
+**RF16:** *BloccoAccountPagamenti*
+Il sistema deve prevedere il blocco automatico dell'account Atleta qualora la regolarizzazione dei pagamenti dovuti non avvenga entro un termine massimo di 30 giorni dalla scadenza prevista.
+
+**RF17:** *CalcoloTariffazioneDinamica*
+Il sistema deve calcolare l'importo dovuto da ciascun Atleta tramite un algoritmo che pesi: volume orario degli allenamenti, livello agonistico del campionato di riferimento e kit tecnico fornito. L'importo finale deve essere configurabile per una ripartizione rateale.
+
+**RF18:** *InvioNotifichePagamenti*
+Il sistema deve inviare avvisi automatici (via e-mail, SMS e dashboard) sia all'Atleta che all'Amministratore qualora un pagamento risulti insoluto a ridosso della scadenza o entro la finestra dei 30 giorni di tolleranza.
+
+**RF19:** *EmissioneRata*
+Sulla base del piano di ripartizione definito durante il calcolo della tariffazione (RF17), il sistema deve provvedere alla generazione automatica delle singole scadenze di pagamento (rate).
+
+
+**AREA:** ***Logistica***
+
+**RF20:** *AcquisizioneTaglieKitAtleti*
+Il sistema deve automatizzare la raccolta delle taglie necessarie per la fornitura del kit tecnico attraverso la somministrazione e l'elaborazione di un questionario digitale rivolto agli Atleti.
+
+**RF21:** *AcquisizioneTaglieKitAllenatori*
+Il sistema deve automatizzare la raccolta delle taglie necessarie per la fornitura del kit tecnico destinato al personale tecnico (Allenatori). La procedura deve avvenire tramite la somministrazione di un questionario digitale specifico, i cui dati raccolti devono essere elaborati dal sistema per generare un riepilogo degli ordini necessari alla logistica.
+
+**RF22:** *AssegnazioneKit*
+Il sistema deve permettere all'Amministratore di associare un kit specifico o un lotto di materiali al profilo di un utente (Atleta o Allenatore).
+
+**RF23:** *MonitoraggioConsegnaMateriale*
+Il sistema deve consentire la registrazione formale dell'avvenuta consegna del kit, permettendo all'Amministratore di tracciare lo stato della distribuzione per ogni singolo utente.
+
+**AREA:** ***Gestione sportiva****
+
+**RF24:** *RilevazionePresenze*
+Il sistema deve consentire agli utenti con ruolo Allenatore di registrare e monitorare la partecipazione degli Atleti alle singole sessioni di allenamento.
+
+**RF25:** *ConvocazionePartite*
+Il sistema deve permettere il caricamento di documenti digitali relativi alle convocazioni, abilitando l'associazione univoca tra l'evento sportivo e i profili degli Atleti selezionati.
+
+**RF26:** *PianificazioneSessioni*
+Il sistema deve fornire funzionalità per la creazione di nuovi eventi di allenamento, consentendo di definire l'elenco degli Atleti partecipanti per ogni specifica sessione.
+
+**RF27:** *AnnullamentoSessioni*
+Il sistema deve permettere la rimozione di un allenamento precedentemente programmato, garantendo l'aggiornamento in tempo reale del calendario sportivo.
+
+**RF28:** *NotificheAllenamenti*
+Il sistema deve inviare comunicazioni multicanale (e-mail, SMS e dashboard) agli Atleti coinvolti ogni volta che un allenamento viene creato o cancellato.
+
+**RF29:** *NotificheConvocazioni*
+Il sistema deve generare un avviso automatico tramite e-mail, SMS e dashboard per informare tempestivamente l'Atleta dell'avvenuta convocazione a una competizione agonistica.
+
+***REQUISITI NON FUNZIONALI***
+
+**RNF1:** *Vincolo tecnologico*
+	Il sistema dovrà essere implementato in Python3.
+
+**RNF2:** *Facilita d'uso*
+	Un esperto di dominio deve essere in grado di completare l'operazione di "Caricamento Documento" in meno di 30 secondi (esclusi i tempi di upload rete).
+
+**RNF3**: *Database relazionale*
+	Il sistema dovrà adottare un database relazionale per garantire l'integrità dei dati.
+
+**RNF4:** *Backup*
+	Deve essere effettuato un backup incrementale quotidiano dei dati.
+
+**RNF5:** *Reattività*
+	Il sistema deve processare e inviare le notifiche entro 5 minuti dall'evento generatore.
+
+**RNF6:** *Sicurezza (dati sanitari)*
+	Tutti i dati sensibili e i documenti sanitari devono essere cifrati su disco utilizzando lo standard AES-256.
+
+**RNF7:** *Sicurezza (accesso)*
+	L'accesso delle API e al database deve essere protetto da protocolli di autenticazione forte.
+
+**RNF8:** *Scalabilità*
+	Il sistema deve gestire fino a 20 utenti contemporanei senza un degrado delle prestazioni superiore al 20%.
+
