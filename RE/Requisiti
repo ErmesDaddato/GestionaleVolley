@@ -70,38 +70,24 @@ Il sistema deve gestire il ripristino dell'operatività dell'account dell'Atleta
 **RF21:** *ModificaBloccoAccountPagamentiManuale*
 Il sistema deve gestire il ripristino dell'operatività dell'account dell'Atleta, precedentemente sospeso a causa del mancato adempimento degli obblighi finanziari (come definito in RF16). Lo sblocco avviene in modalità manuale, tramite l'intervento di un Amministratore autorizzato.
 
-**AREA:** ***Logistica***
-
-**RF22:** *AcquisizioneTaglieKitAtleti*
-Il sistema deve automatizzare la raccolta delle taglie necessarie per la fornitura del kit tecnico attraverso la somministrazione e l'elaborazione di un questionario digitale rivolto agli Atleti.
-
-**RF23:** *AcquisizioneTaglieKitAllenatori*
-Il sistema deve automatizzare la raccolta delle taglie necessarie per la fornitura del kit tecnico destinato al personale tecnico (Allenatori). La procedura deve avvenire tramite la somministrazione di un questionario digitale specifico, i cui dati raccolti devono essere elaborati dal sistema per generare un riepilogo degli ordini necessari alla logistica.
-
-**RF24:** *AssegnazioneKit*
-Il sistema deve permettere all'Amministratore di associare un kit specifico o un lotto di materiali al profilo di un utente (Atleta o Allenatore).
-
-**RF25:** *MonitoraggioConsegnaMateriale*
-Il sistema deve consentire la registrazione formale dell'avvenuta consegna del kit, permettendo all'Amministratore di tracciare lo stato della distribuzione per ogni singolo utente.
-
 **AREA:** ***Gestione sportiva****
 
-**RF26:** *RilevazionePresenze*
+**RF22:** *RilevazionePresenze*
 Il sistema deve consentire agli utenti con ruolo Allenatore di registrare e monitorare la partecipazione degli Atleti alle singole sessioni di allenamento.
 
-**RF27:** *ConvocazionePartite*
+**RF23:** *ConvocazionePartite*
 Il sistema deve permettere il caricamento di documenti digitali relativi alle convocazioni, abilitando l'associazione univoca tra l'evento sportivo e i profili degli Atleti selezionati.
 
-**RF28:** *PianificazioneSessioni*
+**RF24:** *PianificazioneSessioni*
 Il sistema deve fornire funzionalità per la creazione di nuovi eventi di allenamento, consentendo di definire l'elenco degli Atleti partecipanti per ogni specifica sessione.
 
-**RF29:** *AnnullamentoSessioni*
+**RF25:** *AnnullamentoSessioni*
 Il sistema deve permettere la rimozione di un allenamento precedentemente programmato, garantendo l'aggiornamento in tempo reale del calendario sportivo.
 
-**RF30:** *NotificheAllenamenti*
+**RF26:** *NotificheAllenamenti*
 Il sistema deve inviare comunicazioni multicanale (e-mail, SMS e dashboard) agli Atleti coinvolti ogni volta che un allenamento viene creato o cancellato.
 
-**RF31:** *NotificheConvocazioni*
+**RF27:** *NotificheConvocazioni*
 Il sistema deve generare un avviso automatico tramite e-mail, SMS e dashboard per informare tempestivamente l'Atleta dell'avvenuta convocazione a una competizione agonistica.
 
 ***REQUISITI NON FUNZIONALI***
@@ -112,21 +98,18 @@ Il sistema deve generare un avviso automatico tramite e-mail, SMS e dashboard pe
 **RNF2:** *Facilita d'uso*
 	Un esperto di dominio deve essere in grado di completare l'operazione di "Caricamento Documento" in meno di 30 secondi (esclusi i tempi di upload rete).
 
-**RNF3**: *Database relazionale*
-	Il sistema dovrà adottare un database relazionale per garantire l'integrità dei dati.
-
-**RNF4:** *Backup*
+**RNF3:** *Backup*
 	Deve essere effettuato un backup incrementale quotidiano dei dati.
 
-**RNF5:** *Reattività*
+**RNF4:** *Reattività*
 	Il sistema deve processare e inviare le notifiche entro 5 minuti dall'evento generatore.
 
-**RNF6:** *Sicurezza (dati sanitari)*
+**RNF5:** *Sicurezza (dati sanitari)*
 	Tutti i dati sensibili e i documenti sanitari devono essere cifrati su disco utilizzando lo standard AES-256.
 
-**RNF7:** *Sicurezza (accesso)*
+**RNF6:** *Sicurezza (accesso)*
 	L'accesso delle API e al database deve essere protetto da protocolli di autenticazione forte.
 
-**RNF8:** *Scalabilità*
+**RNF7:** *Scalabilità*
 	Il sistema deve gestire fino a 20 utenti contemporanei senza un degrado delle prestazioni superiore al 20%.
 
