@@ -2,9 +2,9 @@ Il sistema è concepito per la gestione integrale di una società pallavolistica
 
 Amministratore: Dispone di una visuale globale per definire l'architettura dei corsi, comporre le squadre e supervisionare l'intero ciclo economico-finanziario. Gestisce le anagrafiche degli atleti e, nel caso di minorenni, l'associazione obbligatoria ai dati dei genitori per le comunicazioni legali e fiscali. Si occupa inoltre della validazione dei certificati medici (sia di base che agonistici), aggiornando in tempo reale lo stato di idoneità fisica degli atleti.
 
-Atleti e Famiglie (Area Self-Service): Accedono a una dashboard dedicata per completare l'iscrizione, caricare la documentazione (ID, privacy, certificati) e monitorare la propria posizione contabile consolidata (retta + kit). Tramite il portale, i genitori possono compilare questionari digitali specifici per la scelta delle taglie, i cui dati confluiscono direttamente nel modulo logistico dell'Amministratore.
+Atleti e Famiglie (Area Self-Service): Accedono a una dashboard dedicata per completare l'iscrizione, caricare la documentazione (ID, privacy, certificati) e monitorare la propria posizione contabile consolidata (retta).
 
-Allenatori (Modulo Tecnico-Operativo): Utilizzano un'interfaccia mobile per la registrazione delle presenze e le convocazioni. Anche agli allenatori è data la possibilità di interagire con il sistema di questionari per la scelta del proprio kit tecnico e delle dotazioni di squadra.
+Allenatori (Modulo Tecnico-Operativo): Utilizzano un'interfaccia mobile per la registrazione delle presenze e le convocazioni.
 
 Il flusso operativo ha inizio con l'Amministratore, che funge da amministratore del sistema definendo l'architettura dei corsi e delle squadre, oltre a supervisionare l'intero ciclo economico-finanziario e lo stato sanitario degli atleti. A questo si affianca un’area self-service dedicata alle famiglie e agli atleti, pensata per eliminare i colli di bottiglia fisici: tramite questa dashboard, gli utenti possono gestire l'iscrizione interamente online, caricare digitalmente la documentazione necessaria (copie dei documenti d’identità, liberatorie privacy e certificati medici) e monitorare in tempo reale lo stato dei propri pagamenti, le scadenze delle rate e la validità della certificazione sanitaria.
 
@@ -13,4 +13,3 @@ L'Amministratore opera inoltre come garante della sicurezza e della conformità 
 Al fine di garantire flessibilità, il controllo amministrativo non si basa su un blocco binario (Pagato/Non Pagato), ma sulla puntualità rispetto al piano di rateizzazione: l'atleta risulterà "non disponibile" per l'allenatore solo se presenta una rata scaduta e non saldata oltre un margine di tolleranza prestabilito, permettendo così la continuità dell'attività sportiva anche durante il ciclo dei pagamenti stagionali.
 
 Il sistema integra un motore di messaggistica automatizzato che invia alert preventivi (via email o dashboard) agli atleti, agli allenatori e all'Amministratore in prossimità della scadenza dei certificati medici o delle rate dei corsi.
-
