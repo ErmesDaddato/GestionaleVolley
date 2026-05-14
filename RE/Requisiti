@@ -56,7 +56,7 @@ Il sistema deve integrare un gateway di pagamento che consenta a ogni Atleta di 
 Il sistema deve prevedere il blocco automatico dell'account Atleta qualora la regolarizzazione dei pagamenti dovuti non avvenga entro un termine massimo di 30 giorni dalla scadenza prevista.
 
 **RF17:** *CalcoloTariffazioneDinamica*
-Il sistema deve calcolare l'importo dovuto da ciascun Atleta tramite un algoritmo che pesi: volume orario degli allenamenti, livello agonistico del campionato di riferimento e kit tecnico fornito. L'importo finale deve essere configurabile per una ripartizione rateale.
+Il sistema deve calcolare l'importo dovuto da ciascun Atleta tramite un algoritmo che pesi: volume orario degli allenamenti e livello agonistico del campionato di riferimento. L'importo finale deve essere configurabile per una ripartizione rateale.
 
 **RF18:** *InvioNotifichePagamenti*
 Il sistema deve inviare avvisi automatici (via e-mail, SMS e dashboard) sia all'Atleta che all'Amministratore qualora un pagamento risulti insoluto a ridosso della scadenza o entro la finestra dei 30 giorni di tolleranza.
